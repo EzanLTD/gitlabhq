@@ -173,7 +173,7 @@ GEM
       github-linguist (~> 2.3.4)
       gitlab-grit (~> 2.5.1)
     gitlab_meta (5.0)
-    gitlab_omniauth-ldap (1.0.2)
+    gitlab_omniauth-ldap (1.0.2.608e4fb50cecff9ecad2a40d31c13771be3e84b3)
       net-ldap (~> 0.2.2)
       omniauth (~> 1.0)
       pyu-ruby-sasl (~> 0.0.3.1)
@@ -514,7 +514,7 @@ DEPENDENCIES
   gitlab-pygments.rb (~> 0.3.2)
   gitlab_git (~> 1.2.1)
   gitlab_meta (= 5.0)
-  gitlab_omniauth-ldap (= 1.0.2)
+  gitlab_omniauth-ldap (= 1.0.2.608e4fb50cecff9ecad2a40d31c13771be3e84b3)
   gon
   grape
   grape-entity
