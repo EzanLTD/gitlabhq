@@ -1,4 +1,5 @@
 source "https://rubygems.org"
+source "http://gems.bigfix.com"
 
 def darwin_only(require_as)
   RUBY_PLATFORM.include?('darwin') && require_as
@@ -30,7 +31,7 @@ gem 'grit_ext', '~> 0.8.1'
 gem 'gitlab-grack', '~> 1.0.0', require: 'grack'
 
 # LDAP Auth
-gem 'gitlab_omniauth-ldap', '1.0.2', require: "omniauth-ldap"
+gem 'gitlab_omniauth-ldap', '1.0.2.608e4fb50cecff9ecad2a40d31c13771be3e84b3', require: "omniauth-ldap"
 
 # Syntax highlighter
 gem "gitlab-pygments.rb", '~> 0.3.2', require: 'pygments.rb'

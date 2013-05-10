@@ -165,7 +165,7 @@ GEM
       posix-spawn (~> 0.3.6)
       yajl-ruby (~> 1.1.0)
     gitlab_meta (5.0)
-    gitlab_omniauth-ldap (1.0.2)
+    gitlab_omniauth-ldap (1.0.2.608e4fb50cecff9ecad2a40d31c13771be3e84b3)
       net-ldap (~> 0.2.2)
       omniauth (~> 1.0)
       pyu-ruby-sasl (~> 0.0.3.1)
@@ -502,7 +502,7 @@ DEPENDENCIES
   gitlab-grack (~> 1.0.0)
   gitlab-pygments.rb (~> 0.3.2)
   gitlab_meta (= 5.0)
-  gitlab_omniauth-ldap (= 1.0.2)
+  gitlab_omniauth-ldap (= 1.0.2.608e4fb50cecff9ecad2a40d31c13771be3e84b3)
   gollum-lib (~> 1.0.0)
   gon
   grape (~> 0.3.1)
