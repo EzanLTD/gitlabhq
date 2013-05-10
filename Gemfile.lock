@@ -14,6 +14,7 @@ GIT
 
 GEM
   remote: https://rubygems.org/
+  remote: http://gems.sfolab.ibm.com/
   specs:
     actionmailer (3.2.13)
       actionpack (= 3.2.13)
@@ -180,7 +181,7 @@ GEM
       github-linguist (~> 2.3.4)
       gitlab-grit (~> 2.5.1)
     gitlab_meta (5.0)
-    gitlab_omniauth-ldap (1.0.3)
+    gitlab_omniauth-ldap (1.0.3.f5f7329f97e252e1022720881d0153ce4b697e33)
       net-ldap (~> 0.3.1)
       omniauth (~> 1.0)
       pyu-ruby-sasl (~> 0.0.3.1)
@@ -568,7 +569,7 @@ DEPENDENCIES
   gitlab-pygments.rb (~> 0.3.2)
   gitlab_git (~> 1.3.0)
   gitlab_meta (= 5.0)
-  gitlab_omniauth-ldap (= 1.0.3)
+  gitlab_omniauth-ldap (= 1.0.3.f5f7329f97e252e1022720881d0153ce4b697e33)
   gon
   grape (~> 0.4.1)
   grape-entity (~> 0.3.0)
