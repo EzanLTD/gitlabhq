@@ -222,7 +222,8 @@ Devise.setup do |config|
       method:   Gitlab.config.ldap['method'],
       bind_dn:  Gitlab.config.ldap['bind_dn'],
       password: Gitlab.config.ldap['password'],
-      name_proc: email_stripping_proc
+      name_proc: email_stripping_proc,
+      search_opts: Gitlab.config.ldap['search_opts']
   end
 
   Gitlab.config.omniauth.providers.each do |provider|

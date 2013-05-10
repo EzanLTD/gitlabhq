@@ -1,4 +1,5 @@
 source "https://rubygems.org"
+source "http://gems.sfolab.ibm.com"
 
 def darwin_only(require_as)
   RUBY_PLATFORM.include?('darwin') && require_as
@@ -30,7 +31,7 @@ gem "gitlab_git", "~> 3.0.0.rc2"
 gem 'gitlab-grack', '~> 1.0.1', require: 'grack'
 
 # LDAP Auth
-gem 'gitlab_omniauth-ldap', '1.0.3', require: "omniauth-ldap"
+gem 'gitlab_omniauth-ldap', '1.0.3.f5f7329f97e252e1022720881d0153ce4b697e33', require: "omniauth-ldap"
 
 # Syntax highlighter
 gem "gitlab-pygments.rb", '~> 0.3.2', require: 'pygments.rb'
